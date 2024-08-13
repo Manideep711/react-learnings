@@ -1,0 +1,5 @@
+react was introduced by a facebook developer,to resolve facebook notification problem,when the notification gets the page gets totally refreshed .
+----react js essentials-----
+immutable vs mutable
+array,objects destructuring import and export
+map filter arrow functions(implicit return) spread operator
