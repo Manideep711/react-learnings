@@ -6,8 +6,12 @@ all the data of the components should be placed before the function call i.e not
 also the diff b/w html and jsx is {} can perfom mathematical caluclations in jsx 
 to iterate to any array and display we should not use foreach as foreach doesnot return any new array we should use map,filter it returns new array to render
 map notes in map component
+******Parentheses in map: The arrow function inside map should be enclosed with parentheses when returning JSX.****(  )
 map.jsx ->basic rendering using map
 card.jsx ->single card
 Mcard.jsx ->multiple cards rendering using map
 -conditional rendering-
 we can use terinary operator ? : and if we want to change specific class in a multiple class ,first wrap the total classes in {} and add `` remove double quotes ${} contains the class which should render conditionally by same terinary operator.
+Yes, the syntax {isVisible && <p>Hello, World!</p>} is a common and clean way to conditionally render elements in React. Here's a quick explanation:
+
+{isVisible && <p>Hello, World!</p>}: This uses JavaScript's logical && operator. If isVisible is true, the expression after && (<p>Hello, World!</p>) will be rendered. If isVisible is false, nothing will be rendered.

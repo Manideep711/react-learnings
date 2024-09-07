@@ -1,0 +1,18 @@
+state ek data hota hai,react is data ka khayaal rakhta hai,jab bhi ye data change hota hai react page ko update karta hai
+state koi bhi data ho sakta hai,jaisa ki score =0;
+useState(0)  the variable changing in the code which should be displayed in the page =>state
+// ans[0]=value
+  // ans[1]=function  useState returns array
+useState returns array which contains two values one is the value and another one is the function to change the value
+const[value,setValue]=useState('value') value can be anything array obj etc
+we will update the state using the setValue fn 
+note that the name can be our choice refer to into.jsx ,for basic and adv.jsx for object as state
+**********In React, when you're using the useState hook to manage an object, you need to update the entire state object,
+ not just a part of it. The reason you can't directly pass !val.isbanned to the setVal function is that React's setVal expects 
+ the new state to be a complete state object, not just a single value.setVal({ ...val, isbanned: !val.isbanned });
+f your state is not an object but an array, you still need to carefully manage updates to maintain the structure of the array.
+ Directly passing a single value (like !val[1]) to the state update function won't work because it would replace the entire 
+ array with just that value.
+ f your state is not an object but an array, you still need to carefully manage updates to maintain the structure of the array.
+  Directly passing a single value (like !val[1]) 
+ to the state update function won't work because it would replace the entire array with just that value.
