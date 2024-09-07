@@ -2,6 +2,7 @@ import React from "react";
 import Map from "./Components/Map.jsx";
 import Card  from "./Components/Card.jsx"
 import Mcard from "./Components/Mcard.jsx"
+import Eventh from "./Components/Eventh.jsx";
 
 function App(){
 
@@ -9,7 +10,7 @@ function App(){
   return (
     <>
     
-  <Mcard></Mcard>
+ <Eventh ></Eventh>
     
     </>
   )

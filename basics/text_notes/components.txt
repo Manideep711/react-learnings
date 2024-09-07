@@ -1,0 +1,13 @@
+@latest
+components should be reusable
+all the data of the components should be placed before the function call i.e not in the return statement
+{} dynamically update the data
+() makes it to break into two lines
+also the diff b/w html and jsx is {} can perfom mathematical caluclations in jsx 
+to iterate to any array and display we should not use foreach as foreach doesnot return any new array we should use map,filter it returns new array to render
+map notes in map component
+map.jsx ->basic rendering using map
+card.jsx ->single card
+Mcard.jsx ->multiple cards rendering using map
+-conditional rendering-
+we can use terinary operator ? : and if we want to change specific class in a multiple class ,first wrap the total classes in {} and add `` remove double quotes ${} contains the class which should render conditionally by same terinary operator.
